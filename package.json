@@ -1,7 +1,7 @@
 {
-  "name": "aws-es-kibana",
+  "name": "aws-es-proxy-dub",
   "version": "1.0.8-pre",
-  "description": "AWS ElasticSearch/Kibana Proxy",
+  "description": "AWS ElasticSearch Proxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/santthosh/aws-es-kibana.git"
+    "url": "git+https://github.com:aggy07//aws-proxy.git" 
   },
   "keywords": [
     "AWS",
@@ -21,15 +21,15 @@
     "AWS ES Proxy",
     "AWS ES Kibana"
   ],
-  "author": "santthosh",
+  "author": "Arvind Ganesh",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/santthosh/aws-es-kibana/issues"
+    "url": "https://github.com/aggy07/aws-proxy/issues"
   },
-  "homepage": "https://github.com/santthosh/aws-es-kibana#readme",
+  "homepage": "https://github.com/aggy07/aws-proxy/blob/master/README.md",
   "preferGlobal": true,
   "bin": {
-    "aws-es-kibana": "index.js"
+    "aws-es-proxy-dub": "index.js"
   },
   "dependencies": {
     "aws-sdk": "^2.48.0",
